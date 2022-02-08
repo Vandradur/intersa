@@ -1,0 +1,100 @@
+.sec-05 {
+    //position: relative;
+    @include flexCenter;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+    .container {
+        // position: relative;
+        @include flexCenter;
+        flex-wrap: wrap;
+        flex-direction: column;
+        box-shadow: $box-shadow-04;
+        border-radius: 0.1rem;
+        transition: 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+        overflow: hidden;
+        width: 100%;
+        margin: 4px 10px;
+
+        @include desktop690 {
+            width: 95%;
+        }
+
+        &__img {
+            position: relative;
+            width: 100%;
+            height: 20rem;
+            @include flexCenter;
+            left: 0;
+
+            @include desktop690 {
+                width: 50%;
+                height: 39rem;           
+            }
+            img {
+
+                width: 100%;
+                height: 100%;
+                padding: 1rem 2rem;
+            }
+            
+        }
+
+        &__contentBox {
+            position: relative;
+            width: 100%;
+            height: auto;
+            right: 0;
+            padding: 1rem;
+
+            @include desktop690 {
+                right: 0;
+                width: 50%;
+                height: 39rem;
+                @include flexCenter;
+                flex-direction: column;
+                padding: 2rem 1.2rem;
+            }
+
+            .contentBox__title {
+                @include h2Text;
+                position: relative;
+                background: $yellow-03;
+                padding: .5rem .8rem;
+
+                span {
+                    color: #fff;
+                    color: $white;
+                }
+            }
+
+            .contentBox__text {
+                position: relative;
+                @include bodyText;
+                margin: 1rem;
+
+            }
+
+            .prodcut-nutr {
+                list-style: none;
+                margin-top: .7rem;
+            }
+
+            li {
+                padding: 0.2rem 0.8rem;
+                @include h3Text;
+                color: $gray-03;
+            }
+        }
+    }
+}
+
+
+.container:nth-child(odd) {
+    flex-direction: row;
+}
+
+.container:nth-child(even) {
+    flex-direction: row-reverse;
+    //text-align: right;
+}

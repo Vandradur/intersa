@@ -1,0 +1,82 @@
+.paymentModal {
+  background: $white;
+  margin: auto;
+  padding: 22px 50px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+  text-align: left;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+  .payTitle {
+    font-size: 4vw;
+    line-height: 0.9;
+    letter-spacing: 1.2px;
+    position: relative;
+    font-family: "Arimo", sans-serif;
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-size: 2.4vw;
+    letter-spacing: 1.2px;
+    color: $blue;
+  }
+  input {
+    padding: 7px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid $gray;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    &::placeholder {
+      color: $gray-02;
+    }
+  }
+  .cardIcons {
+    display: flex;
+    img {
+      margin-right: 10px;
+    }
+  }
+  .cardInfo {
+    display: flex;
+    justify-content: space-between;
+    .sm {
+      width: 30%;
+    }
+  }
+  button {
+    @include btn_spl;
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    border: none;
+    cursor: pointer;
+    background: $green;
+    color: $white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+    &:hover {
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),
+        0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),
+        0 16px 16px rgba(0, 0, 0, 0.05);
+    }
+  }
+  .closeModal {
+    position: absolute;
+    background: $black;
+    border-radius: 50%;
+    padding: 7px 12px;
+    color: $white;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+    font-family: $sans-serif;
+    font-weight: 700;
+  }
+}

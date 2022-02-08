@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="/scss/main.css" />
+  <link rel="stylesheet" href="/scss/owl.carousel.css" />
+  <link rel="stylesheet" href="/scss/owl.theme.default.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alice&family=Antic+Slab&family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Karla:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&family=Niconne&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap" rel="stylesheet">
+  <title>Spice up your life</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="menu">
+      <span class="bar"></span>
+    </div>
+    <nav id="nav" class="nav">
+      <div class="logo" id="logo">
+        <svg viewBox="0 0 26.458 13.229" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a"><stop style="stop-color:#142c41;stop-opacity:1" offset="0"/><stop style="stop-color:#0e74bc;stop-opacity:1" offset="1"/></linearGradient></defs><path style="color:#000;font-weight:700;font-size:5.17612px;font-family:Amaranth;-inkscape-font-specification:'Amaranth Bold';letter-spacing:.296333px;fill:#fc0;stroke-width:.129403;-inkscape-stroke:none" d="m25.259 4.243-.109.626H8.325v3.972h-.854V4.869H1.2v-.626Z" transform="translate(0 .057)"/><path style="color:#000;font-weight:700;font-size:5.17612px;font-family:Amaranth;-inkscape-font-specification:'Amaranth Bold';letter-spacing:.296333px;fill:#241c1c;stroke-width:.129403;-inkscape-stroke:none" d="M1.294 5.337h.854V8.84h-.854ZM5.156 5.337h.854V8.84h-.73l-.998-1.512-.088-.134q-.052-.088-.114-.181-.057-.099-.114-.187-.052-.093-.088-.15l.01.192q.01.109.016.222.01.114.015.223.005.109.005.181l.016 1.346h-.854V5.337h.699l1.01 1.5.103.166q.057.088.113.182.063.093.114.18.052.084.088.146l-.01-.192q-.005-.109-.016-.222l-.01-.228q-.005-.109-.005-.192ZM9.87 5.337h.186q.14-.006.31-.006h.331q.16-.005.249-.005.662 0 .994.254.331.254.331.75 0 .332-.16.55-.161.211-.435.33.155.088.274.233.12.145.228.352.108.202.217.466l.249.58h-.917q-.165-.362-.279-.637-.114-.28-.212-.466-.099-.191-.197-.284-.093-.099-.228-.099h-.088v1.486H9.87Zm.853 1.485h.218q.18 0 .305-.108.13-.114.13-.352 0-.099-.026-.182-.021-.088-.073-.15-.052-.067-.145-.103-.088-.042-.217-.042h-.192zM13.266 5.337h2.231v.626H14.12v.75h1.144l-.098.616H14.12v.886h1.45v.626h-2.304zM17.336 5.29q.186 0 .357.031.176.031.326.078.15.046.27.108.123.057.211.12l-.3.569q-.062-.031-.15-.078-.088-.051-.191-.098-.099-.047-.207-.078-.104-.03-.202-.03-.182 0-.27.077-.087.072-.087.186.005.088.04.155.037.068.11.135.072.062.186.124t.28.13q.207.088.362.18.155.094.253.213.104.12.156.27.051.15.051.346 0 .238-.088.45-.082.207-.243.363-.16.155-.388.243t-.512.088q-.202 0-.389-.036-.18-.037-.336-.093-.155-.057-.285-.12-.13-.067-.222-.124l.28-.61q.035.025.134.087.098.057.222.12.125.056.254.103.13.047.233.047.217 0 .316-.099.103-.103.103-.29 0-.186-.13-.28-.124-.097-.356-.19-.228-.094-.404-.197-.176-.104-.3-.233-.12-.13-.187-.29-.062-.16-.062-.373 0-.233.093-.414.099-.186.26-.316.16-.134.367-.201.212-.073.445-.073zM20.355 5.29q.186 0 .357.031.176.031.326.078.15.046.27.108.123.057.211.12l-.3.569q-.062-.031-.15-.078-.088-.051-.191-.098-.099-.047-.208-.078-.103-.03-.201-.03-.182 0-.27.077-.088.072-.088.186.006.088.042.155.036.068.109.135.072.062.186.124t.28.13q.206.088.362.18.155.094.253.213.104.12.156.27.051.15.051.346 0 .238-.088.45-.082.207-.243.363-.16.155-.388.243t-.512.088q-.202 0-.389-.036-.18-.037-.336-.093-.155-.057-.285-.12-.13-.067-.222-.124l.28-.61q.035.025.134.087.098.057.222.12.124.056.254.103.13.047.233.047.217 0 .316-.099.103-.103.103-.29 0-.186-.13-.28-.124-.097-.356-.19-.228-.094-.404-.197-.176-.104-.3-.233-.12-.13-.187-.29-.062-.16-.062-.373 0-.233.093-.414.099-.186.26-.316.16-.134.367-.201.212-.073.445-.073zM23.213 5.337h.761l1.284 3.504h-.865l-.258-.844H23l-.27.844h-.848zm.73 2.029-.109-.31q-.051-.166-.103-.322l-.088-.29q-.042-.14-.073-.233l-.072.239q-.041.134-.093.29-.047.155-.104.315-.052.16-.103.31z" transform="translate(0 .057)"/></svg>
+      </div>
+      <div class="overlay">
+        <ul>
+          <li><a href="#logo">Black pepper</a></li>
+          <li><a href="#sec-03">Cinnamoms</a></li>
+          <li><a href="#sec-04">Turmaric</a></li>
+          <li><a href="#sec-06">Grinders</a></li>
+          <li><a href="#sec-06">Recepies</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    
+      <!-- Hero Slider -->
+
+       <!-- Owl Carousal -->
+    <div id="owl-demo" class="owl-carousel owl-theme">
+      <!-- slide 01 -->
+      <div class="item">
+        <div class="hero-image">
+          <img src="https://res.cloudinary.com/dsx500kcj/image/upload/v1641057921/blossom-001/untitled1_bphuxy.png" alt='' />
+        </div>
+        <div class="owl-slide">
+          <div class="author-section">
+            <a href="#" class="author-avator-link"><img class="author-avator" src="https://res.cloudinary.com/dsx500kcj/image/upload/v1643391034/blossom-001/plantBase_eakzco.png" alt="The New York Times Logo" width="40"></a>
+            <a href="#" class="author-name-link"><h6 class="author-name">THE NEW YORK TIMES</h6></a>
+        </div>
+            <h1>During the Lunar Eclipse, Something Slammed Into the Moon</h1>
+            <h2>A flash spotted on livestreams was likely caused by the crash.</h2>
+            <button class="btn">Read more</button>
+        </div>
+      </div>
+      <!-- slide 02 -->
+      <div class="item">
+        <div class="hero-image">
+          <img src="https://res.cloudinary.com/dsx500kcj/image/upload/v1641057922/blossom-001/untitled4_d8imtq.png" alt='' />
+        </div>
+        <div class="owl-slide">
+          <div class="author-section">
+            <a href="#" class="author-avator-link"><img class="author-avator" src="https://res.cloudinary.com/dsx500kcj/image/upload/v1643391034/blossom-001/plantBase_eakzco.png" alt="The New York Times Logo" width="40"></a>
+            <a href="#" class="author-name-link"><h6 class="author-name">THE NEW YORK TIMES</h6></a>
+        </div>
+          <h1>During the Lunar Eclipse, Something Slammed Into the Moon</h1>
+          <h2>A flash spotted on livestreams was likely caused by the crash.</h2>
+          <button class="btn">Read more</button>
+      </div>
+      </div>
+      <!-- slide 03 -->
+      <div class="item">
+        <div class="hero-image">
+          <img src="https://res.cloudinary.com/dsx500kcj/image/upload/v1641057922/blossom-001/untitled2_dtquv4.png" alt='' />
+        </div>
+        <div class="owl-slide">
+          <div class="author-section">
+            <a href="#" class="author-avator-link"><img class="author-avator" src="https://res.cloudinary.com/dsx500kcj/image/upload/v1643391034/blossom-001/plantBase_eakzco.png" alt="The New York Times Logo" width="40"></a>
+            <a href="#" class="author-name-link"><h6 class="author-name">THE NEW YORK TIMES</h6></a>
+        </div>
+          <h1>During the Lunar Eclipse, Something Slammed Into the Moon</h1>
+          <h2>A flash spotted on livestreams was likely caused by the crash.</h2>
+          <button class="btn">Read more</button>
+      </div>
+      </div>
+    </div>
+
+      <!-- END .Slider ------------------------------------------------------------------>
+  
+<div class="label-container">
+    <div class="label-wrap">
+      <main>
+        <!-- ======================== -->
+        <section class="main-card">
+            <div class="card-content">
+                <div class="content-left">
+                  <div class="mini-imgs">
+                    <img class="mini-img" src="../img/svgs/pepper-label.svg" alt="Unsplash Image" onclick="changeImg(1)">
+                    <img class="mini-img" src="../img/svgs/pepper-label.svg" alt="Unsplash Image" onclick="changeImg(2)">
+                </div>
+                    <img class="full-img" src="https://res.cloudinary.com/dsx500kcj/image/upload/v1644319051/blossom-001/pepper_label_evjvyb.jpg" alt="spices">
+                    <div class="tag"> <small>Store in a cool , dry non humid place </small></div>
+                  </div>
+                <div class="content-right">    
+
+                    <div class="hero__card__info">
+                      <h3>Product of Sri Lanka</h3>
+                      <h1>  </h1>
+                      <h2>
+                        Quality Pure<span> Black Peppercorns</span>
+                      </h2>
+                      <p >
+                        Our products dose not contain any kind of preservatives , addictives or artificial colors. 
+                      </p>
+                      <small>
+                        1 Ounce (28g) of ground Pepper contains of approximately
+                      </small>             
+                      <div class="content">             
+                          <ul>
+                           <li>CALORIES 23.2 Kcal</li>
+                           <li>PROTEIN 0.2 G</li>
+                           <li>CARBOHYDRATE 1.3 G</li>
+                           <li>POTASSIUM 49.0 MG</li>
+                           <li>DIETARY FIBER 0.5 G</li>
+                         </ul>
+                         <ul> 
+                          <li>MANGANESE 0.0 MG</li>
+                          <li>CALCIUM 2.8 MG</li>
+                          <li>IRON 0.1 MG</li>
+                          <li>VITAMIN C 38%</li>
+                        </ul>
+                      </div>
+                  
+                    </div>     
+                </div>
+            </div>   
+        </section>    
+    </main>
+    </div>
+
+    <!-- END .Pepper label-wrap ------------------------------------------------------------------>
+
+    <div class="label-wrap">
+      <main>
+        <!-- ======================== -->
+        <section class="main-card">
+            <div class="card-content">
+                <div class="content-left">
+                  <div class="mini-imgs">
+                    <img class="mini-img2" src="../img/svgs/cinnamomum-label.svg" alt="Unsplash Image" onclick="changeImg2(1)">
+                    <img class="mini-img2" src="../img/svgs/cinnamomum-label.svg" alt="Unsplash Image" onclick="changeImg2(2)">
+                </div>
+                    <img class="full-img2" src="https://res.cloudinary.com/dsx500kcj/image/upload/v1644319051/blossom-001/cinnamon_label_x768tz.jpg" alt="spices">
+                    <div class="tag"> <small>Store in a cool , dry non humid place </small></div>
+                  </div>
+                <div class="content-right">    
+
+                    <div class="hero__card__info">
+                      <h3>Product of Sri Lanka</h3>
+                      <h1>  </h1>
+                      <h2>
+                        Quality Pure<span> Cinnamomum</span>
+                      </h2>
+                      <p class="intro">
+                        Our products dose not contain any kind of preservatives , addictives or artificial colors. 
+                      </p>
+                      <small>
+                        1 Ounce (28g) of ground Cinnamom contains of approximately
+                      </small>             
+                      <div class="content">             
+                          <ul>
+                            <li>CALORIES 69.2 Kcal</li>
+                            <li>PROTEIN 1.1 G</li>
+                            <li>CARBOHYDRATE 22.6 G</li>
+                            <li>SATURATED FAT 0.1 G</li>
+                            <li>DIETARY FIBER 14.9 G</li>
+                         </ul>
+                         <ul> 
+                          <li>MANGANESE 4.9 MG</li>
+                          <li>CALCIUM 281 MG</li>
+                          <li>IRON 2.3 MG</li>
+                          <li>VITAMIN K 11%</li>
+                        </ul>
+                      </div>
+                    
+                    </div>     
+                </div>
+            </div>   
+        </section>    
+    </main>
+
+       
+    </div>
+     <!-- START .payment ---------------------------------------------------------------------
+<div class="paymentModal">
+  <h1 class="payTitle">Personal Information</h1>
+  <label>Name and Surname</label>
+  <input type="text" placeholder="John Doe" class="payInput" >
+  <label>Phone Number</label>
+  <input type="text" placeholder="+1 234 5678" class="payInput" >
+  <label>Address</label>
+  <input type="text" placeholder="Street , City , Country" class="payInput" >
+  <h2 class="payTitle">Card Information</h2>
+  <div class="cardIcons">
+    <img src="https://res.cloudinary.com/dsx500kcj/image/upload/v1644259981/blossom-001/master_card_nd5bua.png" width="40" alt="master-card"/>
+    <img src="https://res.cloudinary.com/dsx500kcj/image/upload/v1644259981/blossom-001/visa_card_hjpzdb.png" width="40" alt="visa-card"/>
+  </div>
+  <input type="password" class="payInput" placeholder="Card Number" >
+  <div class="cardInfo">
+    <input type="text" placeholder="mm" class="sm">
+    <input type="text" placeholder="yyyy" class="sm">
+    <input type="text" placeholder="cvv" class="sm">
+  </div>
+  <button>Checkout!</button>
+  <span class="closeModal">X</span>
+</div>
+
+    END .payment end ----------------------------------------------------------------------->
+  
+  </div>
+    <!-- END .Cinnamomum label-wrap ------------------------------------------------------------------>
+
+  <!-- END .main-header ----------------------------------------------------------------
+  <section class="sec-01" id="sec-01">
+    <div class="landing fade-in">
+      <h1 class="splash-title fade-in">Spice Up</h1>
+      <a href="#" class="splash-arrow fade-in"><img src="img/down-arrow.png" alt="" /></a>
+    </div>
+  </section>
+   END .sec-01 ----------------------------------------------------------------------->
+
+ <!--
+
+  <section class="sec-05" id="sec-05">
+
+ 
+    <div class="container">
+      <div class="container__img">
+        <img src="../img/svgs/cinnamomum-label.svg" alt="">
+      </div>
+      <div class="container__contentBox">
+        <h2 class="contentBox__title">
+          Quality Pure<span> Cinnamomum</span>
+        </h2>
+        <p class="contentBox__text">
+          1 Ounce (28g) of ground Cinnamom contains of approximately
+        </p> 
+         <ul class="prodcut-nutr">
+           <li>CALORIES 69.2 Kcal</li>
+           <li>PROTEIN 1.1 G</li>
+           <li>CARBOHYDRATE 22.6 G</li>
+           <li>SATURATED FAT 0.1 G</li>
+           <li>DIETARY FIBER 14.9 G</li>
+           <li>MANGANESE 4.9 MG</li>
+           <li>CALCIUM 281 MG</li>
+           <li>IRON 2.3 MG</li>
+           <li>VITAMIN K 11%</li>
+         </ul> 
+      </div>
+  
+    </div>
+ 
+    <div class="container">
+      <div class="container__img">
+        <img src="../img/svgs/pepper-label.svg" alt="">
+      </div>
+      <div class="container__contentBox">
+        <h2 class="contentBox__title">
+          Quality Pure<span> Black Peppercorns</span>
+        </h2>
+        <p class="contentBox__text">
+          1 Ounce (28g) of ground Pepper contains of approximately
+        </p>
+        <ul class="prodcut-nutr">
+           <li>CALORIES         23.2 Kcal</li>
+           <li>PROTEIN          0.2 G</li>
+           <li>CARBOHYDRATE     1.3 G</li>
+           <li>POTASSIUM        49.0 MG</li>
+           <li>DIETARY FIBER    0.5 G</li>
+           <li>MANGANESE        0.0 MG</li>
+           <li>CALCIUM          2.8 MG</li>
+           <li>IRON             0.1 MG</li>
+           <li>VITAMIN C        38%</li>
+         </ul>
+      </div>
+
+    </div>
+  
+ 
+  </section>
+
+-->
+  <!-- END .sec-05 ----------------------------------------------------------------------->
+<section class="sec-06" id="sec-06">
+    <div class="contact-us" id="contact-us">
+      <div class="wrapper">
+     <div class="paymentModal">
+          <h1 class="payTitle">Personal Information</h1>
+          <label>Name and Surname</label>
+          <input type="text" placeholder="John Doe" class="payInput" >
+          <label>Phone Number</label>
+          <input type="text" placeholder="+1 234 5678" class="payInput" >
+          <label>Address</label>
+          <input type="text" placeholder="Street , City , Country" class="payInput" >
+          <h2 class="payTitle">Card Information</h2>
+          <div class="cardIcons">
+            <img src="https://res.cloudinary.com/dsx500kcj/image/upload/v1644259981/blossom-001/master_card_nd5bua.png" width="40" alt="master-card"/>
+            <img src="https://res.cloudinary.com/dsx500kcj/image/upload/v1644259981/blossom-001/visa_card_hjpzdb.png" width="40" alt="visa-card"/>
+          </div>
+          <input type="password" class="payInput" placeholder="Card Number" >
+          <div class="cardInfo">
+            <input type="text" placeholder="mm" class="sm">
+            <input type="text" placeholder="yyyy" class="sm">
+            <input type="text" placeholder="cvv" class="sm">
+          </div>
+          <button>Checkout!</button>
+          <span class="closeModal">X</span>
+        </div>
+      </div><!-- /.wrapper -->
+      <div class="wrapper-locations">
+        <div class="logo" id="logo">
+          <img src="../img/spiceUp-3.svg" alt="" srcset="" />
+        </div>
+        <h3>Locations</h3>
+        <h3>Contact</h3>
+        <a href="#" class="link">accounts@thissite.com</a>
+      
+        <div class="location">
+          <h3>500 Lorem ipsum dolor sit. <br>
+            Lorem, ipsum. <br>
+            Lorem, ipsum dolor. <br>
+            <br>
+            <br>
+            Monday - Saturday <br>
+            10.30am - 7.00pm
+            <br>
+            <br>
+            Tel : 0112836105</h3>
+        </div>
+      </div>
+    </div><!-- /.contact-us -->
+  </section>
+  <!-- END .sec-06 ----------------------------------------------------------------------->
+
+<section class="features">
+  <div class="feature">
+    <img class="featureIcon" src='https://res.cloudinary.com/dsx500kcj/image/upload/v1634396728/blossom-001/foxtail_hsqebh.png' alt=''/>
+    <span class="featureTitle">Shipping</span>
+    <span class="featureDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+  </div>
+  <div class="feature">
+    <img class="featureIcon" src='https://res.cloudinary.com/dsx500kcj/image/upload/v1634396195/blossom-001/lilium_j5xvg2.png' alt=''/>
+    <span class="featureTitle">Shipping</span>
+    <span class="featureDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+  </div>
+  <div class="feature">
+    <img class="featureIcon" src='https://res.cloudinary.com/dsx500kcj/image/upload/v1634395567/blossom-001/hypericum_yles27.png' alt=''/>
+    <span class="featureTitle">Shipping</span>
+    <span class="featureDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+  </div>
+  <div class="feature">
+    <img class="featureIcon" src='https://res.cloudinary.com/dsx500kcj/image/upload/v1634395763/blossom-001/tancy001_buknga.png' alt=''/>
+    <span class="featureTitle">Shipping</span>
+    <span class="featureDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+  </div>
+
+</section>
+<!-- END .features ----------------------------------------------------------------------->
+  <footer id="footer">
+    <div class="footer">
+      <div class="single-footer">
+        <h4>Lorem, ipsum dolor.</h4>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Meet the team</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Careers</a></li>
+        </ul>
+      </div>
+      <div class="single-footer">
+        <h4>Leagles</h4>
+        <ul>
+          <li><a href="">Tearms of services</a></li>
+          <li><a href="">Privecy policy</a></li>
+          <li><a href="">FAQs</a></li>
+          <li><a>&copy; 2019 - intersa</a></li>
+        </ul>
+      </div>
+      <div class="single-footer">
+        <h4>Contacts</h4>
+        <ul>
+          <li><a href="">25/1 Kawudana Road</a></li>
+          <li><a href="">Dehiwela</a></li>
+          <li><a href="">Sri Lanka</a></li>
+          <li><a href="">Ph: +974112836105</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- END: footer  ---------------------------------------------------------------------->
+
+  <script src="./js/jquery-1.11.2.min.js"></script>
+ 
+  <script src="./js/owl.carousel.js"></script>
+ 
+  <script>
+    $('.carousel-wrapper').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+  <script>
+    rotateAnimation('img1', 100, "ccw");
+  </script>
+   <script src="./js/main.js"></script>
+</body>
+
+</html>
